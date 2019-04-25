@@ -1,3 +1,3 @@
 # staging repo 
 
-The git repository for staging
+The git repository for staging environment
