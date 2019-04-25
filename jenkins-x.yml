@@ -2,7 +2,8 @@ env:
 - name: DEPLOY_NAMESPACE
   value: jx-staging
 pipelineConfig:
-  agent: {}
+  agent:
+    container: jenkinsxio/builder-go/0.0.0-SNAPSHOT-PR-3744-1
   env:
   - name: DEPLOY_NAMESPACE
     value: jx-staging
